@@ -2,7 +2,6 @@
 //[345, 897, 568, 234] -> 2
 int ArraySize = 6;
 int CheckEven = 0;
-int CheckUneven =0;
 int[] array = new int[ArraySize];
 Random rand = new Random();
 for (int i = 0; i < array.Length; i++)
@@ -17,10 +16,5 @@ for (int i = 0; i < array.Length; i++)
     {
         CheckEven++;
     }
-    else
-    {
-        CheckUneven++;
-    }
-}
+}    
 Console.WriteLine("количество четных элементов: " + CheckEven);
-Console.WriteLine("количество нечетных элементов: " + CheckUneven);
